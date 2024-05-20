@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c8afd255.css",
+    "main.js": "/static/js/main.13432982.js",
+    "static/media/convo_bg.png": "/static/media/convo_bg.8813a4c2a9698e665f92.png",
+    "static/media/add_contact.png": "/static/media/add_contact.b964a317b2a6bc018974.png",
+    "static/media/video-call.png": "/static/media/video-call.d8aae34a0d2b0938670a.png",
+    "static/media/profile.png": "/static/media/profile.28e44cb7f5d2425541e5.png",
+    "static/media/group_chat.png": "/static/media/group_chat.bfb4d89ed5e88a4effc0.png",
+    "static/media/call.png": "/static/media/call.57885e7cf683095f95f2.png",
+    "static/media/like.png": "/static/media/like.f2d26f8f4fac1b9c87fa.png",
+    "static/media/logo.png": "/static/media/logo.008fed2ece2116cd140f.png",
+    "static/media/attachement.png": "/static/media/attachement.a46c1221a86d23a09d68.png",
+    "static/media/smile.png": "/static/media/smile.716339c106e8f9285687.png",
+    "static/media/logo1.png": "/static/media/logo1.daba3955c03d31b8295f.png",
+    "static/media/send_message.png": "/static/media/send_message.c74b039d71ed5ee442e0.png",
+    "static/media/search_contact.png": "/static/media/search_contact.27441c938028ee3e3fe8.png",
+    "index.html": "/index.html",
+    "main.c8afd255.css.map": "/static/css/main.c8afd255.css.map",
+    "main.13432982.js.map": "/static/js/main.13432982.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8afd255.css",
+    "static/js/main.13432982.js"
+  ]
+}
