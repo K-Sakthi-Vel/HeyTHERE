@@ -1,0 +1,25 @@
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+    border-bottom:.5px solid black ;
+    /* box-shadow: 0px 3px 10px 10px black; */
+    display: flex;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.applogo{
+    width: 70px;
+    height: 70px;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+h1{
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.appname{
+    width: 200px;
+    height: 60px;
+    margin-left:0px ;
+}

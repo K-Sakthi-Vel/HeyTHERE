@@ -1,0 +1,292 @@
+.coversationDiv{
+    position: relative;
+    top: 0px;
+    width: 60%;
+    height: 90vh;
+    /* background-color:lightcyan; */
+    background-image: url("../images/convo_bg.png");
+    display: inline-block;
+    overflow: hidden;
+}
+.header{
+    height: 13%;
+    width: 100%;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    border-bottom: .5px solid gray;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.profile{
+    width: 55px;
+    height: 55px;
+}
+.group_chat{
+    display: flex;
+}
+.join_room{
+    
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-right: 10px;
+}
+.join_room input{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    font-size: 1.3rem;
+}
+.join_room input:focus{
+    box-shadow: 0px 0px 10px 2px violet;
+
+}
+.join_room button{
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.join_room button:hover{
+    background-color: violet;
+    color: white;
+}
+.shortdetails{
+    margin-left: 5px;
+    height: 90%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.chat_type_name{
+    font-size:clamp(1.2rem, 2vw, 2rem);
+    font-weight: 500;
+    margin: 0;
+}
+.calls{
+    margin: auto;
+    margin-right: 20px;
+}
+.calls img{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+.calls img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.coversationBody{
+    height: 74%;
+    width: 100%;
+    padding-top: 40px;
+    overflow: auto;
+}
+.footer{
+    width: 100%;
+    height: 13%;
+    border-top: .5px solid black;
+    display: flex;
+    align-items: center;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.attachements{
+    width: 30%;
+    margin: auto;
+    margin-right: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.attachements img{
+    height: clamp(2rem, 2vw, 2rem);
+    width: clamp(2rem, 2vw, 2rem);
+    margin-left: 10px;
+}
+.footer img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.send_message_div{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.smile{
+    width: 40px;
+    height: 40px;
+}
+.smile:hover{
+    background-color: yellow;
+    border-radius: 50%;
+}
+.messagebox{
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+    border: .5px solid gray;
+    padding-left:10px ;
+    margin-left: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.messagebox:focus{
+    box-shadow: 0px 0px 4px 4px blueviolet;
+    border: none;
+}
+.messagebtn{
+    height: 40px;
+    width: 40%;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 20px;
+    border: .5px solid grey ;
+}
+.send_message_icon{
+    height: 30px;
+    transform: rotate(45deg);
+}
+.messagebtn:hover{
+    box-shadow: 0px 0px 5px 1px yellow;
+    .send_message_icon{
+        transform: scale(1.2) rotate(45deg);
+
+    }
+}
+.yourmessage{
+    position: relative;
+    height: 50px;
+    width:fit-content;
+    display: flex;
+    margin: auto;
+    margin-left: 20px;
+}
+.yourmessage>.message{
+    height: 50px;
+    border-radius: 5px 5px 5px 20px;
+    background-color: white;
+    padding: 20px;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 900px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.friendmessage{
+    position: relative;
+    height: 50px;
+    width:fit-content;
+    display: flex;
+    margin: auto;
+    margin-right: 20px;
+}
+.yourmessage>.message p{
+    position: absolute;
+    top: -15px;
+    right: 2px;
+    font-weight: 700;
+    font-size: .7rem;
+    color: darkred;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.friendmessage>.message p{
+    position: absolute;
+    left: 2px;
+    top: -15px;
+    font-weight: 700;
+    font-size: .7rem;
+    color: darkred;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.friendmessage>.message{
+    height: 50px;
+    border-radius:5px 5px 20px 5px;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    font-weight: 900px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+}
+input[type=text]::-ms-clear { display: none; width : 0; height: 0; }
+.friend_username{
+    height: 50px;
+    width: 70px;
+    border-radius:5px 20px;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.your_username{
+    height: 50px;
+    width: 70px;
+    border-radius:20px 5px;
+    background-color: darkorange;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.likes_count_div_for_friend_msg{
+    position: absolute;
+    left: -10px;
+    bottom: -10px;
+    height: 20px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: .2px solid gray;
+    background-color: #cfd9df;
+}
+.likes_count_div_for_your_msg{
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    height: 20px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: .2px solid gray;
+    background-color: #cfd9df;
+}
+.likes_count_div_for_friend_msg:hover,
+.likes_count_div_for_your_msg:hover{
+    background-color: lawngreen;
+    color: black;
+}
+.likes_count_div_for_friend_msg img,
+.likes_count_div_for_your_msg img{
+    height: 15px;
+    width: 15px;
+    margin-left: 3px;
+}
+.likes_count_div_for_friend_msg img:hover,
+.likes_count_div_for_your_msg img:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.likes_count_div_for_friend_msg p,
+.likes_count_div_for_your_msg p{
+    font-size: .7rem;
+    margin: auto;
+}
