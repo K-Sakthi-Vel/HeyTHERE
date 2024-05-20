@@ -1,0 +1,19 @@
+{
+  "name": "heythere",
+  "version": "1.0.0",
+  "description": "server for heythere app - socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "build":"npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix ../Client_side && npm run build --prefix ../Client_side"
+  },
+  "author": "sakthivel",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5"
+  }
+}
